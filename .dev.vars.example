@@ -1,0 +1,2 @@
+ADMIN_PASSWORD="change-this-password"
+SECRET="replace-with-a-long-random-text-30-chars-or-more"
