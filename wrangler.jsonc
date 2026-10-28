@@ -1,9 +1,7 @@
 {
-  // منصة الإسلاميات — إعداد Cloudflare Workers
   "name": "islamiyat",
   "main": "worker.js",
   "compatibility_date": "2025-09-01",
-  // مخزن البيانات (الرموز، الموارد، الملفات). يُنشأ تلقائياً عند أول نشر.
   "kv_namespaces": [
     { "binding": "DB" }
   ]

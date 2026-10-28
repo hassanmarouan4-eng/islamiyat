@@ -1,21 +1,14 @@
 {
   "name": "islamiyat",
   "private": true,
-  "version": "1.0.0",
-  "scripts": {
-    "deploy": "wrangler deploy"
-  },
-  "devDependencies": {
-    "wrangler": "^4.40.0"
-  },
+  "version": "1.0.1",
   "cloudflare": {
     "label": "منصة الإسلاميات",
     "products": ["Workers", "KV"],
-    "categories": ["education"],
     "bindings": {
       "DB": { "description": "مخزن بيانات المنصة: رموز التفعيل والموارد والملفات." },
       "ADMIN_PASSWORD": { "description": "كلمة مرور **لوحة الإدارة**. اختر كلمة قوية من 8 أحرف على الأقل." },
-      "SECRET": { "description": "نص طويل عشوائي (30 حرفاً أو أكثر) لتأمين رموز التفعيل وروابط الملفات. لا تشاركه مع أحد." }
+      "SECRET": { "description": "نص طويل عشوائي (30 حرفاً أو أكثر) لتأمين رموز التفعيل وروابط الملفات." }
     }
   }
 }
