@@ -776,6 +776,7 @@ function page(cfg) {
   const s = (cfg && cfg.site) || defaultCfg().site;
   const e = x => String(x || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
   const head = '<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">'
+    + '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4561801231921081" crossorigin="anonymous"></script>'
     + '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
     + '<meta name="description" content="' + e(s.tagline) + '">'
     + '<meta property="og:title" content="' + e(s.name === 'منصة الإسلاميات' ? defaultCfg().site.name : s.name) + '"><meta property="og:description" content="' + e(s.tagline) + '">'
