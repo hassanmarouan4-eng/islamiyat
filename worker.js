@@ -791,7 +791,17 @@ const ICON_SVG = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><r
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-
+if (url.pathname === '/ads.txt') {
+  return new Response(
+    'google.com, pub-4561801231921081, DIRECT, f08c47fec0942fa0\n',
+    {
+      headers: {
+        'content-type': 'text/plain; charset=utf-8',
+        'cache-control': 'public, max-age=3600'
+      }
+    }
+  );
+}
     if (url.pathname.startsWith('/api/')) {
       if (!env.DB) return new Response(JSON.stringify({ error: 'لم يُربط مخزن البيانات بعد: أضف KV باسم DB في إعدادات الـ Worker.' }), { status: 500, headers: { 'content-type': 'application/json; charset=utf-8' } });
       const core = createCore(kvStore(env.DB), env);
