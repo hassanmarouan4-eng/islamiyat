@@ -1,0 +1,31 @@
+{
+  "app_name": {
+    "ar": "منصة دروسي",
+    "fr": "Dorossi"
+  },
+  "tagline": {
+    "ar": "دروس وملخصات وفروض جميع المواد للإعدادي والثانوي التأهيلي",
+    "fr": "Cours, résumés et devoirs de toutes les matières, collège et lycée"
+  },
+  "description": {
+    "ar": "التطبيق الرسمي لمنصة دروسي: تصفح الموارد، تفعيل الاشتراك برمز، عرض الملفات داخل التطبيق، والقرآن الكريم برواية ورش.",
+    "fr": "Application officielle de la plateforme Dorossi : ressources, activation par code, lecture des fichiers et Coran (lecture Warsh)."
+  },
+  "package": "org.dorossi.app",
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "region": "MA",
+  "theme": {
+    "primary": "#0E5A43",
+    "secondary": "#9A7420",
+    "tertiary": "#2E5E8C"
+  },
+  "icon": "book",
+  "developer": "منصة دروسي",
+  "version_name": "1.0.0",
+  "version_code": 1,
+  "slug": "dorossi",
+  "entities": []
+}

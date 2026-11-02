@@ -18,6 +18,8 @@
 
 - `worker.js` — المنصة كاملة في ملف واحد: الواجهة والخادم ولوحة الإدارة.
 - `wrangler.jsonc` — إعداد النشر ومخزن البيانات `DB`.
+- `android/` — تطبيق المنصة لأندرويد (انظر `android/README.md`). يُبنى ملف APK تلقائياً وينشر في صفحة **Releases**:
+  [تحميل التطبيق](https://github.com/hassanmarouan4-eng/islamiyat/releases/latest/download/dorossi.apk).
 
 ## حدود الخطة المجانية في Cloudflare
 
