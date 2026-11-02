@@ -1,0 +1,58 @@
+# نشر إصدار من تطبيق أندرويد «دروسي |DOROSSI» بضغطة واحدة:
+# Actions ← «نشر تطبيق أندرويد» ← Run workflow (من الموقع أو من تطبيق GitHub للهاتف).
+# يبني ملف APK وينشره في صفحة Releases برقم الإصدار المكتوب في android/app/build.gradle.kts،
+# ويبقى رابط التحميل ثابتاً: .../releases/latest/download/dorossi.apk
+name: "نشر تطبيق أندرويد"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-android
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: android
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v6
+
+      - name: Test and build the release APK
+        run: |
+          chmod +x ./gradlew
+          ./gradlew --stacktrace testDebugUnitTest assembleRelease
+
+      - name: Publish the release
+        run: |
+          VERSION=$(grep -m1 'versionName' app/build.gradle.kts | sed -E 's/.*"(.*)".*/\1/')
+          TAG="v$VERSION"
+          mkdir -p dist
+          cp app/build/outputs/apk/release/*.apk "dist/dorossi-$VERSION.apk"
+          cp app/build/outputs/apk/release/*.apk dist/dorossi.apk
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/*.apk --clobber
+          else
+            gh release create "$TAG" dist/*.apk --target "$GITHUB_SHA" --latest \
+              --title "دروسي |DOROSSI $TAG" \
+              --notes "تطبيق دروسي |DOROSSI لأندرويد: نزّل ملف dorossi.apk وافتحه على الهاتف، ثم اسمح بالتثبيت من هذا المصدر."
+          fi
+          echo "### تم نشر $TAG" >> "$GITHUB_STEP_SUMMARY"
+          echo "رابط التحميل: https://github.com/$GH_REPO/releases/latest/download/dorossi.apk" >> "$GITHUB_STEP_SUMMARY"

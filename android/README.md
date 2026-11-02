@@ -21,7 +21,7 @@
 
 البناء يجري تلقائياً على GitHub (تبويب **Actions**) عند كل تعديل في هذا المجلد، ويُحفظ الملف هناك باسم `dorossi-apk`.
 
-لنشر إصدار للتلاميذ والأساتذة: صفحة المستودع ← **Releases** ← **Draft a new release** ← في «Choose a tag» اكتب `v1.0.0` واختر «Create new tag» ← **Publish release**. بعد بضع دقائق يُرفق ملف `dorossi.apk` بالإصدار تلقائياً، ورابطه الثابت لكل الإصدارات:
+لنشر إصدار للتلاميذ والأساتذة (من الهاتف أو الحاسوب): المستودع ← **Actions** ← «نشر تطبيق أندرويد» ← **Run workflow**. بعد نحو 10 دقائق يُنشر ملف `dorossi.apk` في صفحة **Releases**، ورابطه الثابت لكل الإصدارات:
 
 ```
 https://github.com/hassanmarouan4-eng/islamiyat/releases/latest/download/dorossi.apk
@@ -34,7 +34,7 @@ https://github.com/hassanmarouan4-eng/islamiyat/releases/latest/download/dorossi
 ## إصدار جديد
 
 1. ارفع `versionCode` (عدد صحيح) و`versionName` في `app/build.gradle.kts`.
-2. أنشئ إصداراً جديداً بالطريقة نفسها، مثل `v1.0.1`.
+2. شغّل «نشر تطبيق أندرويد» من جديد: يُنشر الإصدار برقم `versionName` الجديد.
 النسخ المثبّتة تتحدّث فوق القديمة وتحتفظ بالتفعيل، لأن كل الإصدارات موقّعة بالمفتاح نفسه (`keystore/dev.jks`).
 
 ## Google Play لاحقاً
