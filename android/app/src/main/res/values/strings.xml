@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">دروسي |DOROSSI</string>
+    <string name="app_name">DOROSSI</string>
     <string name="app_tagline">دروس وملخصات وفروض جميع المواد للإعدادي والثانوي التأهيلي</string>
     <string name="app_description">التطبيق الرسمي لمنصة دروسي: تصفح الموارد، تفعيل الاشتراك برمز، عرض الملفات داخل التطبيق، والقرآن الكريم برواية ورش.</string>
-    <string name="developer_name" translatable="false">دروسي |DOROSSI</string>
+    <string name="developer_name" translatable="false">DOROSSI</string>
     <string name="action_back">رجوع</string>
     <string name="action_add">إضافة</string>
     <string name="action_save">حفظ</string>
@@ -69,4 +69,8 @@
     <string name="download_failed">تعذّر بدء التنزيل، حاول مرة أخرى</string>
     <string name="no_app_for_link">لا يوجد على هاتفك تطبيق يفتح هذا الرابط</string>
     <string name="choose_file">اختر ملفاً</string>
+    <string name="crash_title">توقف التطبيق في المرة السابقة</string>
+    <string name="crash_hint">أرسل هذا التقرير إلى من أعدّ التطبيق (بالزر أو بلقطة شاشة) ليُصلح الخلل، ثم اضغط «متابعة».</string>
+    <string name="crash_send">إرسال التقرير</string>
+    <string name="crash_continue">متابعة فتح التطبيق</string>
 </resources>

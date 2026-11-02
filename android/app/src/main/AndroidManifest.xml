@@ -40,12 +40,6 @@
             </intent-filter>
         </activity>
 
-        <!-- The site shows Google AdSense ads: this registers the app's WebView for them
-             (WebView API for Ads) without an AdMob account. -->
-        <meta-data
-            android:name="com.google.android.gms.ads.INTEGRATION_MANAGER"
-            android:value="webview" />
-
         <!-- Stores the in-app language choice on Android 12 and below (AppCompat per-app locales). -->
         <service
             android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"

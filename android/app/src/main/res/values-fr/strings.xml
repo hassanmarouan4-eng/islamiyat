@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">دروسي |DOROSSI</string>
+    <string name="app_name">DOROSSI</string>
     <string name="app_tagline">Cours, résumés et devoirs de toutes les matières, collège et lycée</string>
     <string name="app_description">Application officielle de la plateforme Dorossi : ressources, activation par code, lecture des fichiers et Coran (lecture Warsh).</string>
-    <string name="developer_name" translatable="false">دروسي |DOROSSI</string>
+    <string name="developer_name" translatable="false">DOROSSI</string>
     <string name="action_back">Retour</string>
     <string name="action_add">Ajouter</string>
     <string name="action_save">Enregistrer</string>
@@ -69,4 +69,8 @@
     <string name="download_failed">Impossible de lancer le téléchargement, réessayez</string>
     <string name="no_app_for_link">Aucune application de votre téléphone ne peut ouvrir ce lien</string>
     <string name="choose_file">Choisir un fichier</string>
+    <string name="crash_title">L\'application s\'est arrêtée la dernière fois</string>
+    <string name="crash_hint">Envoyez ce rapport (bouton ou capture d\'écran) pour que le problème soit corrigé, puis touchez « Continuer ».</string>
+    <string name="crash_send">Envoyer le rapport</string>
+    <string name="crash_continue">Continuer</string>
 </resources>

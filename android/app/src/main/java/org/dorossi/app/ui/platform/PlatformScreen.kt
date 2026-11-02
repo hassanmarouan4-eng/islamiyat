@@ -77,7 +77,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.google.android.gms.ads.MobileAds
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -246,12 +245,6 @@ fun PlatformScreen(
             }
             val view = this
             addJavascriptInterface(PlatformBridge(host) { view.url }, "DorossiApp")
-            // Lets the site's Google AdSense ads work inside the app (WebView API for Ads).
-            try {
-                MobileAds.registerWebView(this)
-            } catch (e: RuntimeException) {
-                // Without Google Play services the platform simply shows no ads.
-            }
             controller.webView = this
         }
     }
