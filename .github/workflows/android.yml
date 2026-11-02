@@ -7,6 +7,8 @@ on:
     branches: [ main ]
     paths: [ 'android/**', '.github/workflows/android.yml' ]
     tags: [ 'v*' ]
+  release:
+    types: [ published ]
   workflow_dispatch:
 
 permissions:
@@ -72,10 +74,16 @@ jobs:
           name: dorossi-apk
           path: android/dist/
 
-      - name: Publish a GitHub release with the APK (version tags only)
+      # A release made on GitHub (Releases > Draft a new release > tag v1.0.0 > Publish) or a pushed
+      # v* tag gets the APK attached; dorossi.apk keeps the same name in every version.
+      - name: Attach the APK to the GitHub release (version tags only)
         if: startsWith(github.ref, 'refs/tags/v')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" dist/*.apk --title "منصة دروسي $GITHUB_REF_NAME" \
-            --notes "تطبيق منصة دروسي لأندرويد: نزّل ملف dorossi.apk وافتحه على الهاتف، ثم اسمح بالتثبيت من هذا المصدر."
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" dist/*.apk --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" dist/*.apk --title "منصة دروسي $GITHUB_REF_NAME" \
+              --notes "تطبيق منصة دروسي لأندرويد: نزّل ملف dorossi.apk وافتحه على الهاتف، ثم اسمح بالتثبيت من هذا المصدر."
+          fi
