@@ -11,7 +11,7 @@ import org.dorossi.app.data.settings.SettingsRepository
 
 /**
  * Chooses the platform address: the one used last time if it still answers, otherwise the first
- * candidate that serves the platform (dorossi.org, then the Cloudflare address).
+ * candidate that serves the platform (www.dorossi.org, dorossi.org, then the Cloudflare address).
  */
 class HostResolver(private val settings: SettingsRepository) {
 

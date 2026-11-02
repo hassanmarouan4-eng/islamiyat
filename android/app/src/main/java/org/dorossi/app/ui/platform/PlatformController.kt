@@ -19,7 +19,7 @@ enum class LoadError { OFFLINE, SERVER }
 class PlatformController {
     var webView: WebView? = null
 
-    /** Address in use (https://dorossi.org or the Cloudflare one), once chosen. */
+    /** Address in use (https://www.dorossi.org, or a fallback), once chosen. */
     var baseUrl by mutableStateOf<String?>(null)
 
     var progress by mutableIntStateOf(0)

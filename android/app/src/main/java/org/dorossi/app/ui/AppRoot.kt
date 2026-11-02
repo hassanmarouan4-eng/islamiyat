@@ -92,4 +92,4 @@ fun AppRoot(links: StateFlow<String?>, onLinkConsumed: () -> Unit) {
     }
 }
 
-private const val DEFAULT_SHARE_URL = "https://dorossi.org"
+private const val DEFAULT_SHARE_URL = "https://www.dorossi.org"

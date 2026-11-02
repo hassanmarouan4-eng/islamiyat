@@ -57,6 +57,16 @@ class LinkRulesTest {
     }
 
     @Test
+    fun officialAddressComesFirst() {
+        assertEquals("https://www.dorossi.org", PlatformHosts.candidates.first())
+        assertEquals(
+            "https://www.dorossi.org/#subject-math",
+            LinkRules.rebase("https://dorossi.org/#subject-math", PlatformHosts.candidates.first()),
+        )
+        assertTrue(LinkRules.isHome("https://www.dorossi.org/#home"))
+    }
+
+    @Test
     fun linksAreMovedToTheActiveAddress() {
         val base = "https://islamiyat.hassanmarouan4.workers.dev"
         assertEquals("$base/#level-1ac", LinkRules.rebase("https://dorossi.org/#level-1ac", base))

@@ -28,7 +28,7 @@ import org.dorossi.app.BuildConfig
 import org.dorossi.app.R
 import org.dorossi.app.ui.components.BackTopBar
 
-/** About the app; [platformHost] is the address in use (dorossi.org or the Cloudflare one). */
+/** About the app; [platformHost] is the address in use (www.dorossi.org, or a fallback). */
 @Composable
 fun AboutScreen(onBack: () -> Unit, platformHost: String?) {
     Scaffold(

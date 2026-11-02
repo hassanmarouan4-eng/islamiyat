@@ -1,8 +1,9 @@
 package org.dorossi.app.core
 
-/** Addresses of the platform. The first one is preferred; the others are fallbacks. */
+/** Addresses of the platform. The first one (the site's official address) is preferred. */
 object PlatformHosts {
     val candidates: List<String> = listOf(
+        "https://www.dorossi.org",
         "https://dorossi.org",
         "https://islamiyat.hassanmarouan4.workers.dev",
     )
