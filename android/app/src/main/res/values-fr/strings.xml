@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Dorossi</string>
+    <string name="app_name">دروسي |DOROSSI</string>
     <string name="app_tagline">Cours, résumés et devoirs de toutes les matières, collège et lycée</string>
     <string name="app_description">Application officielle de la plateforme Dorossi : ressources, activation par code, lecture des fichiers et Coran (lecture Warsh).</string>
-    <string name="developer_name" translatable="false">منصة دروسي</string>
+    <string name="developer_name" translatable="false">دروسي |DOROSSI</string>
     <string name="action_back">Retour</string>
     <string name="action_add">Ajouter</string>
     <string name="action_save">Enregistrer</string>

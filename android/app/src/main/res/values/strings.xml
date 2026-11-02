@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">منصة دروسي</string>
+    <string name="app_name">دروسي |DOROSSI</string>
     <string name="app_tagline">دروس وملخصات وفروض جميع المواد للإعدادي والثانوي التأهيلي</string>
     <string name="app_description">التطبيق الرسمي لمنصة دروسي: تصفح الموارد، تفعيل الاشتراك برمز، عرض الملفات داخل التطبيق، والقرآن الكريم برواية ورش.</string>
-    <string name="developer_name" translatable="false">منصة دروسي</string>
+    <string name="developer_name" translatable="false">دروسي |DOROSSI</string>
     <string name="action_back">رجوع</string>
     <string name="action_add">إضافة</string>
     <string name="action_save">حفظ</string>
