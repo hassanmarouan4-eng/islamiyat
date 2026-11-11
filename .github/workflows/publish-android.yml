@@ -4,7 +4,11 @@
 # ويبقى رابط التحميل ثابتاً: .../releases/latest/download/dorossi.apk
 name: "نشر تطبيق أندرويد"
 
+# يعمل تلقائياً عند تغيير رقم الإصدار في android/app/build.gradle.kts، ويمكن تشغيله يدوياً أيضاً.
 on:
+  push:
+    branches: [ main ]
+    paths: [ 'android/app/build.gradle.kts' ]
   workflow_dispatch:
 
 permissions:

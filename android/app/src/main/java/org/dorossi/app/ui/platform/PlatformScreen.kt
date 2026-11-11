@@ -89,14 +89,14 @@ import org.dorossi.app.core.WebFiles
 
 /** Colours of the platform's own header, page and bottom bar, so the app frame matches the site. */
 private object PlatformColors {
-    val barLight = Color(0xFF0A4434)
-    val barDark = Color(0xFF0C3428)
-    val pageLight = Color(0xFFF2F5F3)
-    val pageDark = Color(0xFF0B1512)
+    val barLight = Color(0xFF064E3B)
+    val barDark = Color(0xFF053B2D)
+    val pageLight = Color(0xFFF3F8F5)
+    val pageDark = Color(0xFF07130F)
     val bottomLight = Color(0xFFFFFFFF)
-    val bottomDark = Color(0xFF121F1A)
-    val gold = Color(0xFFE2B85A)
-    val brand = Color(0xFF0A4434)
+    val bottomDark = Color(0xFF0F1F19)
+    val gold = Color(0xFFFBBF24)
+    val brand = Color(0xFF064E3B)
 }
 
 private const val BACK_SCRIPT =

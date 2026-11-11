@@ -18,14 +18,14 @@
   ],
   "region": "MA",
   "theme": {
-    "primary": "#0E5A43",
-    "secondary": "#9A7420",
-    "tertiary": "#2E5E8C"
+    "primary": "#047857",
+    "secondary": "#B45309",
+    "tertiary": "#1D5C8F"
   },
   "icon": "book",
   "developer": "DOROSSI",
-  "version_name": "1.0.1",
-  "version_code": 2,
+  "version_name": "1.1.0",
+  "version_code": 3,
   "slug": "dorossi",
   "entities": []
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Colours of the platform (site header #0A4434, primary #0E5A43). -->
-    <color name="ic_launcher_background">#0E5A43</color>
-    <color name="splash_background">#0A4434</color>
-    <color name="window_background">#F2F5F3</color>
+    <!-- Colours of the platform identity (emerald #064E3B, amber #F59E0B). -->
+    <color name="ic_launcher_background">#064E3B</color>
+    <color name="splash_background">#064E3B</color>
+    <color name="window_background">#F3F8F5</color>
 </resources>
