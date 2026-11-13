@@ -1,0 +1,28 @@
+# يجلب صور الدروس (Unsplash) إلى هذا الفرع media/ لاستعمالها في ملخصات المنصة
+name: "جلب صور الدروس"
+on:
+  push:
+    branches: [ media ]
+    paths: [ 'lists/**' ]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Download
+        run: |
+          for f in lists/*.txt; do
+            d="media/$(basename "$f" .txt)"; mkdir -p "$d"
+            while read -r name url; do
+              [ -z "$name" ] && continue
+              [ -f "$d/$name.jpg" ] && continue
+              curl -sSfL "$url?ixlib=rb-4.1.0&fm=jpg&q=80&w=1200&fit=max" -o "$d/$name.jpg"
+            done < "$f"
+          done
+          ls -la media/*
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add media && git commit -m "صور الدروس" && git push || echo "nothing new"
