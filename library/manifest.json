@@ -11688,7 +11688,8 @@
    "free": true,
    "file": "isl1ac/isl1ac-s1-01.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 01 - سورة ق الشطر الأول - ملخص.docx",
-   "size": 16474
+   "size": 16474,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl1ac-s1-01-f",
@@ -11702,7 +11703,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-01-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 01 - سورة ق الشطر الأول - جذاذة.docx",
-   "size": 24635
+   "size": 24635,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl1ac-s1-02",
@@ -11716,7 +11718,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-02.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 02 - العقيدة الصحيحة والعقائد الفاسدة - ملخص.docx",
-   "size": 13449
+   "size": 13449,
+   "unitId": "aqida"
   },
   {
    "id": "isl1ac-s1-02-f",
@@ -11730,7 +11733,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-02-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 02 - العقيدة الصحيحة والعقائد الفاسدة - جذاذة.docx",
-   "size": 20509
+   "size": 20509,
+   "unitId": "aqida"
   },
   {
    "id": "isl1ac-s1-03",
@@ -11744,7 +11748,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-03.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 03 - بعثة الرسول ودعوته السرية والجهرية - ملخص.docx",
-   "size": 13305
+   "size": 13305,
+   "unitId": "iqtida"
   },
   {
    "id": "isl1ac-s1-03-f",
@@ -11758,7 +11763,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-03-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 03 - بعثة الرسول ودعوته السرية والجهرية - جذاذة.docx",
-   "size": 19754
+   "size": 19754,
+   "unitId": "iqtida"
   },
   {
    "id": "isl1ac-s1-04",
@@ -11772,7 +11778,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-04.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 04 - العبادة غاية الخلق - أركان الإسلام - ملخص.docx",
-   "size": 13730
+   "size": 13730,
+   "unitId": "istijaba"
   },
   {
    "id": "isl1ac-s1-04-f",
@@ -11786,7 +11793,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-04-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 04 - العبادة غاية الخلق - أركان الإسلام - جذاذة.docx",
-   "size": 22285
+   "size": 22285,
+   "unitId": "istijaba"
   },
   {
    "id": "isl1ac-s1-05",
@@ -11800,7 +11808,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-05.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 05 - حق الله - التوحيد والإخلاص - ملخص.docx",
-   "size": 13071
+   "size": 13071,
+   "unitId": "qist"
   },
   {
    "id": "isl1ac-s1-05-f",
@@ -11814,7 +11823,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-05-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 05 - حق الله - التوحيد والإخلاص - جذاذة.docx",
-   "size": 19165
+   "size": 19165,
+   "unitId": "qist"
   },
   {
    "id": "isl1ac-s1-06",
@@ -11828,7 +11838,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-06.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 06 - الإتقان عبادة وعملا - ملخص.docx",
-   "size": 12617
+   "size": 12617,
+   "unitId": "hikma"
   },
   {
    "id": "isl1ac-s1-06-f",
@@ -11842,7 +11853,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-06-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 06 - الإتقان عبادة وعملا - جذاذة.docx",
-   "size": 18944
+   "size": 18944,
+   "unitId": "hikma"
   },
   {
    "id": "isl1ac-s1-07",
@@ -11856,7 +11868,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-07.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 07 - سورة ق الشطر الثاني - ملخص.docx",
-   "size": 15005
+   "size": 15005,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl1ac-s1-07-f",
@@ -11870,7 +11883,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-07-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 07 - سورة ق الشطر الثاني - جذاذة.docx",
-   "size": 23233
+   "size": 23233,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl1ac-s1-08",
@@ -11884,7 +11898,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-08.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 08 - أركان الإيمان - حديث جبريل - ملخص.docx",
-   "size": 13512
+   "size": 13512,
+   "unitId": "aqida"
   },
   {
    "id": "isl1ac-s1-08-f",
@@ -11898,7 +11913,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-08-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 08 - أركان الإيمان - حديث جبريل - جذاذة.docx",
-   "size": 18994
+   "size": 18994,
+   "unitId": "aqida"
   },
   {
    "id": "isl1ac-s1-09",
@@ -11912,7 +11928,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-09.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 09 - ثبات الرسول - ملخص.docx",
-   "size": 12861
+   "size": 12861,
+   "unitId": "iqtida"
   },
   {
    "id": "isl1ac-s1-09-f",
@@ -11926,7 +11943,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-09-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 09 - ثبات الرسول - جذاذة.docx",
-   "size": 18721
+   "size": 18721,
+   "unitId": "iqtida"
   },
   {
    "id": "isl1ac-s1-10",
@@ -11940,7 +11958,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-10.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 10 - الطهارة أنواعها ومقاصدها - ملخص.docx",
-   "size": 12882
+   "size": 12882,
+   "unitId": "istijaba"
   },
   {
    "id": "isl1ac-s1-10-f",
@@ -11954,7 +11973,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-10-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 10 - الطهارة أنواعها ومقاصدها - جذاذة.docx",
-   "size": 19117
+   "size": 19117,
+   "unitId": "istijaba"
   },
   {
    "id": "isl1ac-s1-11",
@@ -11968,7 +11988,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-11.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 11 - حق النفس الحفظ والرعاية - ملخص.docx",
-   "size": 12505
+   "size": 12505,
+   "unitId": "qist"
   },
   {
    "id": "isl1ac-s1-11-f",
@@ -11982,7 +12003,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-11-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 11 - حق النفس الحفظ والرعاية - جذاذة.docx",
-   "size": 18543
+   "size": 18543,
+   "unitId": "qist"
   },
   {
    "id": "isl1ac-s1-12",
@@ -11996,7 +12018,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-12.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 12 - التعامل الإيجابي مع وسائل الاتصال - ملخص.docx",
-   "size": 12979
+   "size": 12979,
+   "unitId": "hikma"
   },
   {
    "id": "isl1ac-s1-12-f",
@@ -12010,7 +12033,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-12-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 12 - التعامل الإيجابي مع وسائل الاتصال - جذاذة.docx",
-   "size": 18394
+   "size": 18394,
+   "unitId": "hikma"
   },
   {
    "id": "isl1ac-s1-13",
@@ -12024,7 +12048,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-13.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 13 - سورة ق الشطر الثالث - ملخص.docx",
-   "size": 14778
+   "size": 14778,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl1ac-s1-13-f",
@@ -12038,7 +12063,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-13-f.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 13 - سورة ق الشطر الثالث - جذاذة.docx",
-   "size": 23222
+   "size": 23222,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl2ac-s1-01",
@@ -12052,7 +12078,8 @@
    "free": true,
    "file": "isl2ac/isl2ac-s1-01.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 01 - سورة النجم الشطر الأول - ملخص.docx",
-   "size": 15229
+   "size": 15229,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl2ac-s1-01-f",
@@ -12066,7 +12093,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-01-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 01 - سورة النجم الشطر الأول - جذاذة.docx",
-   "size": 23164
+   "size": 23164,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl2ac-s1-02",
@@ -12080,7 +12108,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-02.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 02 - الله عالم الغيب والشهادة - ملخص.docx",
-   "size": 12733
+   "size": 12733,
+   "unitId": "aqida"
   },
   {
    "id": "isl2ac-s1-02-f",
@@ -12094,7 +12123,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-02-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 02 - الله عالم الغيب والشهادة - جذاذة.docx",
-   "size": 19034
+   "size": 19034,
+   "unitId": "aqida"
   },
   {
    "id": "isl2ac-s1-03",
@@ -12108,7 +12138,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-03.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 03 - الهجرة إلى الحبشة وبيعتا العقبة - ملخص.docx",
-   "size": 13172
+   "size": 13172,
+   "unitId": "iqtida"
   },
   {
    "id": "isl2ac-s1-03-f",
@@ -12122,7 +12153,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-03-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 03 - الهجرة إلى الحبشة وبيعتا العقبة - جذاذة.docx",
-   "size": 19313
+   "size": 19313,
+   "unitId": "iqtida"
   },
   {
    "id": "isl2ac-s1-04",
@@ -12136,7 +12168,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-04.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 04 - العبادة غاية الخلق - شمولية العبادة - ملخص.docx",
-   "size": 12760
+   "size": 12760,
+   "unitId": "istijaba"
   },
   {
    "id": "isl2ac-s1-04-f",
@@ -12150,7 +12183,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-04-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 04 - العبادة غاية الخلق - شمولية العبادة - جذاذة.docx",
-   "size": 19282
+   "size": 19282,
+   "unitId": "istijaba"
   },
   {
    "id": "isl2ac-s1-05",
@@ -12164,7 +12198,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-05.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 05 - حق الله - تعظيم حدود الله وشعائره - ملخص.docx",
-   "size": 12722
+   "size": 12722,
+   "unitId": "qist"
   },
   {
    "id": "isl2ac-s1-05-f",
@@ -12178,7 +12213,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-05-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 05 - حق الله - تعظيم حدود الله وشعائره - جذاذة.docx",
-   "size": 19015
+   "size": 19015,
+   "unitId": "qist"
   },
   {
    "id": "isl2ac-s1-06",
@@ -12192,7 +12228,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-06.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 06 - التحلي بالمسؤولية - ملخص.docx",
-   "size": 12770
+   "size": 12770,
+   "unitId": "hikma"
   },
   {
    "id": "isl2ac-s1-06-f",
@@ -12206,7 +12243,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-06-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 06 - التحلي بالمسؤولية - جذاذة.docx",
-   "size": 18349
+   "size": 18349,
+   "unitId": "hikma"
   },
   {
    "id": "isl2ac-s1-07",
@@ -12220,7 +12258,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-07.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 07 - سورة النجم الشطر الثاني - ملخص.docx",
-   "size": 14647
+   "size": 14647,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl2ac-s1-07-f",
@@ -12234,7 +12273,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-07-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 07 - سورة النجم الشطر الثاني - جذاذة.docx",
-   "size": 23504
+   "size": 23504,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl2ac-s1-08",
@@ -12248,7 +12288,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-08.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 08 - الوحي تعريفه وأنواعه - ملخص.docx",
-   "size": 12901
+   "size": 12901,
+   "unitId": "aqida"
   },
   {
    "id": "isl2ac-s1-08-f",
@@ -12262,7 +12303,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-08-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 08 - الوحي تعريفه وأنواعه - جذاذة.docx",
-   "size": 18761
+   "size": 18761,
+   "unitId": "aqida"
   },
   {
    "id": "isl2ac-s1-09",
@@ -12276,7 +12318,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-09.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 09 - حصار الدعوة وثبات أهلها - ملخص.docx",
-   "size": 12872
+   "size": 12872,
+   "unitId": "iqtida"
   },
   {
    "id": "isl2ac-s1-09-f",
@@ -12290,7 +12333,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-09-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 09 - حصار الدعوة وثبات أهلها - جذاذة.docx",
-   "size": 18590
+   "size": 18590,
+   "unitId": "iqtida"
   },
   {
    "id": "isl2ac-s1-10",
@@ -12304,7 +12348,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-10.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 10 - الصيام أحكامه ومقاصده - ملخص.docx",
-   "size": 12940
+   "size": 12940,
+   "unitId": "istijaba"
   },
   {
    "id": "isl2ac-s1-10-f",
@@ -12318,7 +12363,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-10-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 10 - الصيام أحكامه ومقاصده - جذاذة.docx",
-   "size": 19210
+   "size": 19210,
+   "unitId": "istijaba"
   },
   {
    "id": "isl2ac-s1-11",
@@ -12332,7 +12378,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-11.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 11 - حق النفس - اجتناب الكبائر والموبقات - ملخص.docx",
-   "size": 13136
+   "size": 13136,
+   "unitId": "qist"
   },
   {
    "id": "isl2ac-s1-11-f",
@@ -12346,7 +12393,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-11-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 11 - حق النفس - اجتناب الكبائر والموبقات - جذاذة.docx",
-   "size": 18430
+   "size": 18430,
+   "unitId": "qist"
   },
   {
    "id": "isl2ac-s1-12",
@@ -12360,7 +12408,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-12.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 12 - اتقاء الشبهات - الحلال بين والحرام بين - ملخص.docx",
-   "size": 13152
+   "size": 13152,
+   "unitId": "hikma"
   },
   {
    "id": "isl2ac-s1-12-f",
@@ -12374,7 +12423,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-12-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 12 - اتقاء الشبهات - الحلال بين والحرام بين - جذاذة.docx",
-   "size": 18102
+   "size": 18102,
+   "unitId": "hikma"
   },
   {
    "id": "isl2ac-s1-13",
@@ -12388,7 +12438,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-13.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 13 - سورة النجم الشطر الثالث - ملخص.docx",
-   "size": 14623
+   "size": 14623,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl2ac-s1-13-f",
@@ -12402,7 +12453,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-13-f.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 13 - سورة النجم الشطر الثالث - جذاذة.docx",
-   "size": 22902
+   "size": 22902,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl3ac-s1-01",
@@ -12416,7 +12468,8 @@
    "free": true,
    "file": "isl3ac/isl3ac-s1-01.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 01 - سورة الحشر الشطر الأول - ملخص.pdf",
-   "size": 171749
+   "size": 171749,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl3ac-s1-01-f",
@@ -12430,7 +12483,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-01-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 01 - سورة الحشر الشطر الأول - جذاذة.pdf",
-   "size": 207747
+   "size": 207747,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl3ac-s1-02",
@@ -12444,7 +12498,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-02.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 02 - أسماء الله الحسنى - ملخص.pdf",
-   "size": 174725
+   "size": 174725,
+   "unitId": "aqida"
   },
   {
    "id": "isl3ac-s1-02-f",
@@ -12458,7 +12513,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-02-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 02 - أسماء الله الحسنى - جذاذة.pdf",
-   "size": 176003
+   "size": 176003,
+   "unitId": "aqida"
   },
   {
    "id": "isl3ac-s1-03",
@@ -12472,7 +12528,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-03.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 03 - حماية الدعوة وبناء الدولة - الهجرة إلى المدينة - ملخص.pdf",
-   "size": 177679
+   "size": 177679,
+   "unitId": "iqtida"
   },
   {
    "id": "isl3ac-s1-03-f",
@@ -12486,7 +12543,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-03-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 03 - حماية الدعوة وبناء الدولة - الهجرة إلى المدينة - جذاذة.pdf",
-   "size": 177020
+   "size": 177020,
+   "unitId": "iqtida"
   },
   {
    "id": "isl3ac-s1-04",
@@ -12500,7 +12558,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-04.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 04 - العبادة صفة إيمان ودليل خضوع - ملخص.pdf",
-   "size": 171244
+   "size": 171244,
+   "unitId": "istijaba"
   },
   {
    "id": "isl3ac-s1-04-f",
@@ -12514,7 +12573,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-04-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 04 - العبادة صفة إيمان ودليل خضوع - جذاذة.pdf",
-   "size": 173472
+   "size": 173472,
+   "unitId": "istijaba"
   },
   {
    "id": "isl3ac-s1-05",
@@ -12528,7 +12588,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-05.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 05 - حق الله - تقوى الله - ملخص.pdf",
-   "size": 167412
+   "size": 167412,
+   "unitId": "qist"
   },
   {
    "id": "isl3ac-s1-05-f",
@@ -12542,7 +12603,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-05-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 05 - حق الله - تقوى الله - جذاذة.pdf",
-   "size": 171324
+   "size": 171324,
+   "unitId": "qist"
   },
   {
    "id": "isl3ac-s1-06",
@@ -12556,7 +12618,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-06.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 06 - الهجرة المتجددة - ملخص.pdf",
-   "size": 170030
+   "size": 170030,
+   "unitId": "hikma"
   },
   {
    "id": "isl3ac-s1-06-f",
@@ -12570,7 +12633,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-06-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 06 - الهجرة المتجددة - جذاذة.pdf",
-   "size": 171086
+   "size": 171086,
+   "unitId": "hikma"
   },
   {
    "id": "isl3ac-s1-07",
@@ -12584,7 +12648,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-07.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 07 - سورة الحشر الشطر الثاني - ملخص.pdf",
-   "size": 164198
+   "size": 164198,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl3ac-s1-07-f",
@@ -12598,7 +12663,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-07-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 07 - سورة الحشر الشطر الثاني - جذاذة.pdf",
-   "size": 208684
+   "size": 208684,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl3ac-s1-08",
@@ -12612,7 +12678,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-08.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 08 - أهمية التدين في حياة الفرد والمجتمع - ملخص.pdf",
-   "size": 173011
+   "size": 173011,
+   "unitId": "aqida"
   },
   {
    "id": "isl3ac-s1-08-f",
@@ -12626,7 +12693,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-08-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 08 - أهمية التدين في حياة الفرد والمجتمع - جذاذة.pdf",
-   "size": 173613
+   "size": 173613,
+   "unitId": "aqida"
   },
   {
    "id": "isl3ac-s1-09",
@@ -12640,7 +12708,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-09.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 09 - المسجد نواة المجتمع الإسلامي - ملخص.pdf",
-   "size": 173036
+   "size": 173036,
+   "unitId": "iqtida"
   },
   {
    "id": "isl3ac-s1-09-f",
@@ -12654,7 +12723,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-09-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 09 - المسجد نواة المجتمع الإسلامي - جذاذة.pdf",
-   "size": 177378
+   "size": 177378,
+   "unitId": "iqtida"
   },
   {
    "id": "isl3ac-s1-10",
@@ -12668,7 +12738,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-10.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 10 - الزكاة أحكامها ومقاصدها - ملخص.pdf",
-   "size": 172529
+   "size": 172529,
+   "unitId": "istijaba"
   },
   {
    "id": "isl3ac-s1-10-f",
@@ -12682,7 +12753,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-10-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 10 - الزكاة أحكامها ومقاصدها - جذاذة.pdf",
-   "size": 181779
+   "size": 181779,
+   "unitId": "istijaba"
   },
   {
    "id": "isl3ac-s1-11",
@@ -12696,7 +12768,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-11.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 11 - حق النفس - أهمية التخطيط والتنظيم في الحياة - ملخص.pdf",
-   "size": 170368
+   "size": 170368,
+   "unitId": "qist"
   },
   {
    "id": "isl3ac-s1-11-f",
@@ -12710,7 +12783,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-11-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 11 - حق النفس - أهمية التخطيط والتنظيم في الحياة - جذاذة.pdf",
-   "size": 179661
+   "size": 179661,
+   "unitId": "qist"
   },
   {
    "id": "isl3ac-s1-12",
@@ -12724,7 +12798,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-12.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 12 - الإيثار والتضحية - ملخص.pdf",
-   "size": 170708
+   "size": 170708,
+   "unitId": "hikma"
   },
   {
    "id": "isl3ac-s1-12-f",
@@ -12738,7 +12813,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-12-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 12 - الإيثار والتضحية - جذاذة.pdf",
-   "size": 179164
+   "size": 179164,
+   "unitId": "hikma"
   },
   {
    "id": "isl3ac-s1-13",
@@ -12752,7 +12828,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-13.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 13 - سورة الحشر الشطر الثالث - ملخص.pdf",
-   "size": 165115
+   "size": 165115,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl3ac-s1-13-f",
@@ -12766,7 +12843,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-13-f.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 13 - سورة الحشر الشطر الثالث - جذاذة.pdf",
-   "size": 200207
+   "size": 200207,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl1ac-s1-01-w",
@@ -12780,7 +12858,8 @@
    "free": true,
    "file": "isl1ac/isl1ac-s1-01-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 01 - سورة ق الشطر الأول - ورقة الأنشطة.docx",
-   "size": 20328
+   "size": 20328,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl1ac-s1-02-w",
@@ -12794,7 +12873,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-02-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 02 - العقيدة الصحيحة والعقائد الفاسدة - ورقة الأنشطة.docx",
-   "size": 18027
+   "size": 18027,
+   "unitId": "aqida"
   },
   {
    "id": "isl1ac-s1-03-w",
@@ -12808,7 +12888,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-03-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 03 - بعثة الرسول ودعوته السرية والجهرية - ورقة الأنشطة.docx",
-   "size": 17299
+   "size": 17299,
+   "unitId": "iqtida"
   },
   {
    "id": "isl1ac-s1-04-w",
@@ -12822,7 +12903,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-04-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 04 - العبادة غاية الخلق - أركان الإسلام - ورقة الأنشطة.docx",
-   "size": 19610
+   "size": 19610,
+   "unitId": "istijaba"
   },
   {
    "id": "isl1ac-s1-05-w",
@@ -12836,7 +12918,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-05-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 05 - حق الله - التوحيد والإخلاص - ورقة الأنشطة.docx",
-   "size": 17112
+   "size": 17112,
+   "unitId": "qist"
   },
   {
    "id": "isl1ac-s1-06-w",
@@ -12850,7 +12933,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-06-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 06 - الإتقان عبادة وعملا - ورقة الأنشطة.docx",
-   "size": 16927
+   "size": 16927,
+   "unitId": "hikma"
   },
   {
    "id": "isl1ac-s1-07-w",
@@ -12864,7 +12948,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-07-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 07 - سورة ق الشطر الثاني - ورقة الأنشطة.docx",
-   "size": 19317
+   "size": 19317,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl1ac-s1-08-w",
@@ -12878,7 +12963,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-08-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 08 - أركان الإيمان - حديث جبريل - ورقة الأنشطة.docx",
-   "size": 16696
+   "size": 16696,
+   "unitId": "aqida"
   },
   {
    "id": "isl1ac-s1-09-w",
@@ -12892,7 +12978,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-09-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 09 - ثبات الرسول - ورقة الأنشطة.docx",
-   "size": 16640
+   "size": 16640,
+   "unitId": "iqtida"
   },
   {
    "id": "isl1ac-s1-10-w",
@@ -12906,7 +12993,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-10-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 10 - الطهارة أنواعها ومقاصدها - ورقة الأنشطة.docx",
-   "size": 16957
+   "size": 16957,
+   "unitId": "istijaba"
   },
   {
    "id": "isl1ac-s1-11-w",
@@ -12920,7 +13008,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-11-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 11 - حق النفس الحفظ والرعاية - ورقة الأنشطة.docx",
-   "size": 16444
+   "size": 16444,
+   "unitId": "qist"
   },
   {
    "id": "isl1ac-s1-12-w",
@@ -12934,7 +13023,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-12-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 12 - التعامل الإيجابي مع وسائل الاتصال - ورقة الأنشطة.docx",
-   "size": 16305
+   "size": 16305,
+   "unitId": "hikma"
   },
   {
    "id": "isl1ac-s1-13-w",
@@ -12948,7 +13038,8 @@
    "free": false,
    "file": "isl1ac/isl1ac-s1-13-w.docx",
    "fileName": "التربية الإسلامية 1إع - د1 - 13 - سورة ق الشطر الثالث - ورقة الأنشطة.docx",
-   "size": 19345
+   "size": 19345,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl2ac-s1-01-w",
@@ -12962,7 +13053,8 @@
    "free": true,
    "file": "isl2ac/isl2ac-s1-01-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 01 - سورة النجم الشطر الأول - ورقة الأنشطة.docx",
-   "size": 19366
+   "size": 19366,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl2ac-s1-02-w",
@@ -12976,7 +13068,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-02-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 02 - الله عالم الغيب والشهادة - ورقة الأنشطة.docx",
-   "size": 16805
+   "size": 16805,
+   "unitId": "aqida"
   },
   {
    "id": "isl2ac-s1-03-w",
@@ -12990,7 +13083,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-03-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 03 - الهجرة إلى الحبشة وبيعتا العقبة - ورقة الأنشطة.docx",
-   "size": 17041
+   "size": 17041,
+   "unitId": "iqtida"
   },
   {
    "id": "isl2ac-s1-04-w",
@@ -13004,7 +13098,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-04-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 04 - العبادة غاية الخلق - شمولية العبادة - ورقة الأنشطة.docx",
-   "size": 17280
+   "size": 17280,
+   "unitId": "istijaba"
   },
   {
    "id": "isl2ac-s1-05-w",
@@ -13018,7 +13113,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-05-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 05 - حق الله - تعظيم حدود الله وشعائره - ورقة الأنشطة.docx",
-   "size": 16922
+   "size": 16922,
+   "unitId": "qist"
   },
   {
    "id": "isl2ac-s1-06-w",
@@ -13032,7 +13128,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-06-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 06 - التحلي بالمسؤولية - ورقة الأنشطة.docx",
-   "size": 16233
+   "size": 16233,
+   "unitId": "hikma"
   },
   {
    "id": "isl2ac-s1-07-w",
@@ -13046,7 +13143,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-07-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 07 - سورة النجم الشطر الثاني - ورقة الأنشطة.docx",
-   "size": 19452
+   "size": 19452,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl2ac-s1-08-w",
@@ -13060,7 +13158,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-08-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 08 - الوحي تعريفه وأنواعه - ورقة الأنشطة.docx",
-   "size": 16560
+   "size": 16560,
+   "unitId": "aqida"
   },
   {
    "id": "isl2ac-s1-09-w",
@@ -13074,7 +13173,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-09-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 09 - حصار الدعوة وثبات أهلها - ورقة الأنشطة.docx",
-   "size": 16416
+   "size": 16416,
+   "unitId": "iqtida"
   },
   {
    "id": "isl2ac-s1-10-w",
@@ -13088,7 +13188,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-10-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 10 - الصيام أحكامه ومقاصده - ورقة الأنشطة.docx",
-   "size": 17073
+   "size": 17073,
+   "unitId": "istijaba"
   },
   {
    "id": "isl2ac-s1-11-w",
@@ -13102,7 +13203,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-11-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 11 - حق النفس - اجتناب الكبائر والموبقات - ورقة الأنشطة.docx",
-   "size": 16445
+   "size": 16445,
+   "unitId": "qist"
   },
   {
    "id": "isl2ac-s1-12-w",
@@ -13116,7 +13218,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-12-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 12 - اتقاء الشبهات - الحلال بين والحرام بين - ورقة الأنشطة.docx",
-   "size": 16096
+   "size": 16096,
+   "unitId": "hikma"
   },
   {
    "id": "isl2ac-s1-13-w",
@@ -13130,7 +13233,8 @@
    "free": false,
    "file": "isl2ac/isl2ac-s1-13-w.docx",
    "fileName": "التربية الإسلامية 2إع - د1 - 13 - سورة النجم الشطر الثالث - ورقة الأنشطة.docx",
-   "size": 19146
+   "size": 19146,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl3ac-s1-01-w",
@@ -13144,7 +13248,8 @@
    "free": true,
    "file": "isl3ac/isl3ac-s1-01-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 01 - سورة الحشر الشطر الأول - ورقة الأنشطة.pdf",
-   "size": 236658
+   "size": 236658,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl3ac-s1-02-w",
@@ -13158,7 +13263,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-02-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 02 - أسماء الله الحسنى - ورقة الأنشطة.pdf",
-   "size": 202715
+   "size": 202715,
+   "unitId": "aqida"
   },
   {
    "id": "isl3ac-s1-03-w",
@@ -13172,7 +13278,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-03-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 03 - حماية الدعوة وبناء الدولة - الهجرة إلى المدينة - ورقة الأنشطة.pdf",
-   "size": 200406
+   "size": 200406,
+   "unitId": "iqtida"
   },
   {
    "id": "isl3ac-s1-04-w",
@@ -13186,7 +13293,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-04-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 04 - العبادة صفة إيمان ودليل خضوع - ورقة الأنشطة.pdf",
-   "size": 211587
+   "size": 211587,
+   "unitId": "istijaba"
   },
   {
    "id": "isl3ac-s1-05-w",
@@ -13200,7 +13308,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-05-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 05 - حق الله - تقوى الله - ورقة الأنشطة.pdf",
-   "size": 203776
+   "size": 203776,
+   "unitId": "qist"
   },
   {
    "id": "isl3ac-s1-06-w",
@@ -13214,7 +13323,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-06-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 06 - الهجرة المتجددة - ورقة الأنشطة.pdf",
-   "size": 201781
+   "size": 201781,
+   "unitId": "hikma"
   },
   {
    "id": "isl3ac-s1-07-w",
@@ -13228,7 +13338,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-07-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 07 - سورة الحشر الشطر الثاني - ورقة الأنشطة.pdf",
-   "size": 197732
+   "size": 197732,
+   "unitId": "tazkiya"
   },
   {
    "id": "isl3ac-s1-08-w",
@@ -13242,7 +13353,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-08-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 08 - أهمية التدين في حياة الفرد والمجتمع - ورقة الأنشطة.pdf",
-   "size": 200843
+   "size": 200843,
+   "unitId": "aqida"
   },
   {
    "id": "isl3ac-s1-09-w",
@@ -13256,7 +13368,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-09-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 09 - المسجد نواة المجتمع الإسلامي - ورقة الأنشطة.pdf",
-   "size": 202232
+   "size": 202232,
+   "unitId": "iqtida"
   },
   {
    "id": "isl3ac-s1-10-w",
@@ -13270,7 +13383,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-10-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 10 - الزكاة أحكامها ومقاصدها - ورقة الأنشطة.pdf",
-   "size": 207329
+   "size": 207329,
+   "unitId": "istijaba"
   },
   {
    "id": "isl3ac-s1-11-w",
@@ -13284,7 +13398,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-11-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 11 - حق النفس - أهمية التخطيط والتنظيم في الحياة - ورقة الأنشطة.pdf",
-   "size": 200345
+   "size": 200345,
+   "unitId": "qist"
   },
   {
    "id": "isl3ac-s1-12-w",
@@ -13298,7 +13413,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-12-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 12 - الإيثار والتضحية - ورقة الأنشطة.pdf",
-   "size": 193973
+   "size": 193973,
+   "unitId": "hikma"
   },
   {
    "id": "isl3ac-s1-13-w",
@@ -13312,7 +13428,8 @@
    "free": false,
    "file": "isl3ac/isl3ac-s1-13-w.pdf",
    "fileName": "التربية الإسلامية 3إع - د1 - 13 - سورة الحشر الشطر الثالث - ورقة الأنشطة.pdf",
-   "size": 191929
+   "size": 191929,
+   "unitId": "tazkiya"
   },
   {
    "id": "isltc-s1-01",
@@ -13326,7 +13443,8 @@
    "free": true,
    "file": "isltc/isltc-s1-01.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 01 - سورة الكهف الشطر الأول (من الآية 1 إلى الآية 26) - ملخص.pdf",
-   "size": 170526
+   "size": 170526,
+   "unitId": "tazkiya"
   },
   {
    "id": "isltc-s1-01-f",
@@ -13340,7 +13458,8 @@
    "free": false,
    "file": "isltc/isltc-s1-01-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 01 - سورة الكهف الشطر الأول (من الآية 1 إلى الآية 26) - جذاذة.pdf",
-   "size": 224093
+   "size": 224093,
+   "unitId": "tazkiya"
   },
   {
    "id": "isltc-s1-01-w",
@@ -13354,7 +13473,8 @@
    "free": true,
    "file": "isltc/isltc-s1-01-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 01 - سورة الكهف الشطر الأول (من الآية 1 إلى الآية 26) - ورقة الأنشطة البنائية.pdf",
-   "size": 246945
+   "size": 246945,
+   "unitId": "tazkiya"
   },
   {
    "id": "isltc-s1-02",
@@ -13368,7 +13488,8 @@
    "free": false,
    "file": "isltc/isltc-s1-02.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 02 - التوحيد وأدلته - ملخص.pdf",
-   "size": 167956
+   "size": 167956,
+   "unitId": "aqida"
   },
   {
    "id": "isltc-s1-02-f",
@@ -13382,7 +13503,8 @@
    "free": false,
    "file": "isltc/isltc-s1-02-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 02 - التوحيد وأدلته - جذاذة.pdf",
-   "size": 178414
+   "size": 178414,
+   "unitId": "aqida"
   },
   {
    "id": "isltc-s1-02-w",
@@ -13396,7 +13518,8 @@
    "free": false,
    "file": "isltc/isltc-s1-02-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 02 - التوحيد وأدلته - ورقة الأنشطة البنائية.pdf",
-   "size": 203860
+   "size": 203860,
+   "unitId": "aqida"
   },
   {
    "id": "isltc-s1-03",
@@ -13410,7 +13533,8 @@
    "free": false,
    "file": "isltc/isltc-s1-03.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 03 - فقه السيرة الغايات والمقاصد - ملخص.pdf",
-   "size": 177633
+   "size": 177633,
+   "unitId": "iqtida"
   },
   {
    "id": "isltc-s1-03-f",
@@ -13424,7 +13548,8 @@
    "free": false,
    "file": "isltc/isltc-s1-03-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 03 - فقه السيرة الغايات والمقاصد - جذاذة.pdf",
-   "size": 177802
+   "size": 177802,
+   "unitId": "iqtida"
   },
   {
    "id": "isltc-s1-03-w",
@@ -13438,7 +13563,8 @@
    "free": false,
    "file": "isltc/isltc-s1-03-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 03 - فقه السيرة الغايات والمقاصد - ورقة الأنشطة البنائية.pdf",
-   "size": 201931
+   "size": 201931,
+   "unitId": "iqtida"
   },
   {
    "id": "isltc-s1-04",
@@ -13452,7 +13578,8 @@
    "free": false,
    "file": "isltc/isltc-s1-04.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 04 - فقه العبادات الصلاة – الزكاة – الصيام - ملخص.pdf",
-   "size": 172861
+   "size": 172861,
+   "unitId": "istijaba"
   },
   {
    "id": "isltc-s1-04-f",
@@ -13466,7 +13593,8 @@
    "free": false,
    "file": "isltc/isltc-s1-04-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 04 - فقه العبادات الصلاة – الزكاة – الصيام - جذاذة.pdf",
-   "size": 180374
+   "size": 180374,
+   "unitId": "istijaba"
   },
   {
    "id": "isltc-s1-04-w",
@@ -13480,7 +13608,8 @@
    "free": false,
    "file": "isltc/isltc-s1-04-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 04 - فقه العبادات الصلاة – الزكاة – الصيام - ورقة الأنشطة البنائية.pdf",
-   "size": 196576
+   "size": 196576,
+   "unitId": "istijaba"
   },
   {
    "id": "isltc-s1-05",
@@ -13494,7 +13623,8 @@
    "free": false,
    "file": "isltc/isltc-s1-05.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 05 - حق الله شكر الله - ملخص.pdf",
-   "size": 171784
+   "size": 171784,
+   "unitId": "qist"
   },
   {
    "id": "isltc-s1-05-f",
@@ -13508,7 +13638,8 @@
    "free": false,
    "file": "isltc/isltc-s1-05-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 05 - حق الله شكر الله - جذاذة.pdf",
-   "size": 177126
+   "size": 177126,
+   "unitId": "qist"
   },
   {
    "id": "isltc-s1-05-w",
@@ -13522,7 +13653,8 @@
    "free": false,
    "file": "isltc/isltc-s1-05-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 05 - حق الله شكر الله - ورقة الأنشطة البنائية.pdf",
-   "size": 198603
+   "size": 198603,
+   "unitId": "qist"
   },
   {
    "id": "isltc-s1-06",
@@ -13536,7 +13668,8 @@
    "free": false,
    "file": "isltc/isltc-s1-06.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 06 - القناعة والرضا - ملخص.pdf",
-   "size": 170266
+   "size": 170266,
+   "unitId": "hikma"
   },
   {
    "id": "isltc-s1-06-f",
@@ -13550,7 +13683,8 @@
    "free": false,
    "file": "isltc/isltc-s1-06-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 06 - القناعة والرضا - جذاذة.pdf",
-   "size": 172945
+   "size": 172945,
+   "unitId": "hikma"
   },
   {
    "id": "isltc-s1-06-w",
@@ -13564,7 +13698,8 @@
    "free": false,
    "file": "isltc/isltc-s1-06-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 06 - القناعة والرضا - ورقة الأنشطة البنائية.pdf",
-   "size": 192467
+   "size": 192467,
+   "unitId": "hikma"
   },
   {
    "id": "isltc-s1-07",
@@ -13578,7 +13713,8 @@
    "free": false,
    "file": "isltc/isltc-s1-07.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 07 - سورة الكهف الشطر الثاني (من الآية 27 إلى الآية 44) - ملخص.pdf",
-   "size": 170286
+   "size": 170286,
+   "unitId": "tazkiya"
   },
   {
    "id": "isltc-s1-07-f",
@@ -13592,7 +13728,8 @@
    "free": false,
    "file": "isltc/isltc-s1-07-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 07 - سورة الكهف الشطر الثاني (من الآية 27 إلى الآية 44) - جذاذة.pdf",
-   "size": 214902
+   "size": 214902,
+   "unitId": "tazkiya"
   },
   {
    "id": "isltc-s1-07-w",
@@ -13606,7 +13743,8 @@
    "free": false,
    "file": "isltc/isltc-s1-07-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 07 - سورة الكهف الشطر الثاني (من الآية 27 إلى الآية 44) - ورقة الأنشطة البنائية.pdf",
-   "size": 211979
+   "size": 211979,
+   "unitId": "tazkiya"
   },
   {
    "id": "isltc-s1-08",
@@ -13620,7 +13758,8 @@
    "free": false,
    "file": "isltc/isltc-s1-08.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 08 - البعث والحساب - ملخص.pdf",
-   "size": 170147
+   "size": 170147,
+   "unitId": "aqida"
   },
   {
    "id": "isltc-s1-08-f",
@@ -13634,7 +13773,8 @@
    "free": false,
    "file": "isltc/isltc-s1-08-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 08 - البعث والحساب - جذاذة.pdf",
-   "size": 178636
+   "size": 178636,
+   "unitId": "aqida"
   },
   {
    "id": "isltc-s1-08-w",
@@ -13648,7 +13788,8 @@
    "free": false,
    "file": "isltc/isltc-s1-08-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 08 - البعث والحساب - ورقة الأنشطة البنائية.pdf",
-   "size": 193614
+   "size": 193614,
+   "unitId": "aqida"
   },
   {
    "id": "isltc-s1-09",
@@ -13662,7 +13803,8 @@
    "free": false,
    "file": "isltc/isltc-s1-09.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 09 - محمد الرسول القائد - ملخص.pdf",
-   "size": 177092
+   "size": 177092,
+   "unitId": "iqtida"
   },
   {
    "id": "isltc-s1-09-f",
@@ -13676,7 +13818,8 @@
    "free": false,
    "file": "isltc/isltc-s1-09-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 09 - محمد الرسول القائد - جذاذة.pdf",
-   "size": 183485
+   "size": 183485,
+   "unitId": "iqtida"
   },
   {
    "id": "isltc-s1-09-w",
@@ -13690,7 +13833,8 @@
    "free": false,
    "file": "isltc/isltc-s1-09-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 09 - محمد الرسول القائد - ورقة الأنشطة البنائية.pdf",
-   "size": 198226
+   "size": 198226,
+   "unitId": "iqtida"
   },
   {
    "id": "isltc-s1-10",
@@ -13704,7 +13848,8 @@
    "free": false,
    "file": "isltc/isltc-s1-10.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 10 - الحج أركانه ومقاصده - ملخص.pdf",
-   "size": 171033
+   "size": 171033,
+   "unitId": "istijaba"
   },
   {
    "id": "isltc-s1-10-f",
@@ -13718,7 +13863,8 @@
    "free": false,
    "file": "isltc/isltc-s1-10-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 10 - الحج أركانه ومقاصده - جذاذة.pdf",
-   "size": 178873
+   "size": 178873,
+   "unitId": "istijaba"
   },
   {
    "id": "isltc-s1-10-w",
@@ -13732,7 +13878,8 @@
    "free": false,
    "file": "isltc/isltc-s1-10-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 10 - الحج أركانه ومقاصده - ورقة الأنشطة البنائية.pdf",
-   "size": 199861
+   "size": 199861,
+   "unitId": "istijaba"
   },
   {
    "id": "isltc-s1-11",
@@ -13746,7 +13893,8 @@
    "free": false,
    "file": "isltc/isltc-s1-11.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 11 - حق النفس الاستقامة - ملخص.pdf",
-   "size": 170490
+   "size": 170490,
+   "unitId": "qist"
   },
   {
    "id": "isltc-s1-11-f",
@@ -13760,7 +13908,8 @@
    "free": false,
    "file": "isltc/isltc-s1-11-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 11 - حق النفس الاستقامة - جذاذة.pdf",
-   "size": 177603
+   "size": 177603,
+   "unitId": "qist"
   },
   {
    "id": "isltc-s1-11-w",
@@ -13774,7 +13923,8 @@
    "free": false,
    "file": "isltc/isltc-s1-11-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 11 - حق النفس الاستقامة - ورقة الأنشطة البنائية.pdf",
-   "size": 197069
+   "size": 197069,
+   "unitId": "qist"
   },
   {
    "id": "isltc-s1-12",
@@ -13788,7 +13938,8 @@
    "free": false,
    "file": "isltc/isltc-s1-12.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 12 - الدين النصيحة - ملخص.pdf",
-   "size": 175559
+   "size": 175559,
+   "unitId": "hikma"
   },
   {
    "id": "isltc-s1-12-f",
@@ -13802,7 +13953,8 @@
    "free": false,
    "file": "isltc/isltc-s1-12-f.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 12 - الدين النصيحة - جذاذة.pdf",
-   "size": 181510
+   "size": 181510,
+   "unitId": "hikma"
   },
   {
    "id": "isltc-s1-12-w",
@@ -13816,7 +13968,548 @@
    "free": false,
    "file": "isltc/isltc-s1-12-w.pdf",
    "fileName": "التربية الإسلامية ج.م - د1 - 12 - الدين النصيحة - ورقة الأنشطة البنائية.pdf",
-   "size": 212983
+   "size": 212983,
+   "unitId": "hikma"
+  },
+  {
+   "id": "isl1bac-s1-01",
+   "title": "الدرس 1: سورة يوسف: الشطر الأول (من الآية 1 إلى الآية 20)",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل التزكية (القرآن الكريم)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "tazkiya",
+   "lesson": "سورة يوسف: الشطر الأول (من الآية 1 إلى الآية 20)",
+   "semester": 1,
+   "free": true,
+   "file": "isl1bac/isl1bac-s1-01.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 01 - سورة يوسف الشطر الأول (من الآية 1 إلى الآية 20) - ملخص.pdf",
+   "size": 512535
+  },
+  {
+   "id": "isl1bac-s1-01-f",
+   "title": "جذاذة – الدرس 1: سورة يوسف: الشطر الأول (من الآية 1 إلى الآية 20)",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل التزكية (القرآن الكريم)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "tazkiya",
+   "lesson": "سورة يوسف: الشطر الأول (من الآية 1 إلى الآية 20)",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-01-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 01 - سورة يوسف الشطر الأول (من الآية 1 إلى الآية 20) - جذاذة.pdf",
+   "size": 397946
+  },
+  {
+   "id": "isl1bac-s1-01-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 1: سورة يوسف: الشطر الأول (من الآية 1 إلى الآية 20)",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل التزكية (القرآن الكريم)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "tazkiya",
+   "lesson": "سورة يوسف: الشطر الأول (من الآية 1 إلى الآية 20)",
+   "semester": 1,
+   "free": true,
+   "file": "isl1bac/isl1bac-s1-01-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 01 - سورة يوسف الشطر الأول (من الآية 1 إلى الآية 20) - ورقة الأنشطة البنائية.pdf",
+   "size": 471459
+  },
+  {
+   "id": "isl1bac-s1-02",
+   "title": "الدرس 2: الإيمان والغيب",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل التزكية (العقيدة)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "aqida",
+   "lesson": "الإيمان والغيب",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-02.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 02 - الإيمان والغيب - ملخص.pdf",
+   "size": 501195
+  },
+  {
+   "id": "isl1bac-s1-02-f",
+   "title": "جذاذة – الدرس 2: الإيمان والغيب",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل التزكية (العقيدة)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "aqida",
+   "lesson": "الإيمان والغيب",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-02-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 02 - الإيمان والغيب - جذاذة.pdf",
+   "size": 389811
+  },
+  {
+   "id": "isl1bac-s1-02-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 2: الإيمان والغيب",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل التزكية (العقيدة)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "aqida",
+   "lesson": "الإيمان والغيب",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-02-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 02 - الإيمان والغيب - ورقة الأنشطة البنائية.pdf",
+   "size": 454298
+  },
+  {
+   "id": "isl1bac-s1-03",
+   "title": "الدرس 3: صلح الحديبية وفتح مكة: دروس وعبر",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل الاقتداء، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "iqtida",
+   "lesson": "صلح الحديبية وفتح مكة: دروس وعبر",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-03.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 03 - صلح الحديبية وفتح مكة دروس وعبر - ملخص.pdf",
+   "size": 443156
+  },
+  {
+   "id": "isl1bac-s1-03-f",
+   "title": "جذاذة – الدرس 3: صلح الحديبية وفتح مكة: دروس وعبر",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل الاقتداء، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "iqtida",
+   "lesson": "صلح الحديبية وفتح مكة: دروس وعبر",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-03-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 03 - صلح الحديبية وفتح مكة دروس وعبر - جذاذة.pdf",
+   "size": 399949
+  },
+  {
+   "id": "isl1bac-s1-03-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 3: صلح الحديبية وفتح مكة: دروس وعبر",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل الاقتداء، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "iqtida",
+   "lesson": "صلح الحديبية وفتح مكة: دروس وعبر",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-03-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 03 - صلح الحديبية وفتح مكة دروس وعبر - ورقة الأنشطة البنائية.pdf",
+   "size": 489529
+  },
+  {
+   "id": "isl1bac-s1-04",
+   "title": "الدرس 4: فقه الأسرة في الإسلام: الزواج",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل الاستجابة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "istijaba",
+   "lesson": "فقه الأسرة في الإسلام: الزواج",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-04.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 04 - فقه الأسرة في الإسلام الزواج - ملخص.pdf",
+   "size": 545234
+  },
+  {
+   "id": "isl1bac-s1-04-f",
+   "title": "جذاذة – الدرس 4: فقه الأسرة في الإسلام: الزواج",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل الاستجابة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "istijaba",
+   "lesson": "فقه الأسرة في الإسلام: الزواج",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-04-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 04 - فقه الأسرة في الإسلام الزواج - جذاذة.pdf",
+   "size": 393124
+  },
+  {
+   "id": "isl1bac-s1-04-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 4: فقه الأسرة في الإسلام: الزواج",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل الاستجابة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "istijaba",
+   "lesson": "فقه الأسرة في الإسلام: الزواج",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-04-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 04 - فقه الأسرة في الإسلام الزواج - ورقة الأنشطة البنائية.pdf",
+   "size": 456892
+  },
+  {
+   "id": "isl1bac-s1-05",
+   "title": "الدرس 5: حق الله: الوفاء بالأمانة والمسؤولية",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل القسط، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "qist",
+   "lesson": "حق الله: الوفاء بالأمانة والمسؤولية",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-05.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 05 - حق الله الوفاء بالأمانة والمسؤولية - ملخص.pdf",
+   "size": 450574
+  },
+  {
+   "id": "isl1bac-s1-05-f",
+   "title": "جذاذة – الدرس 5: حق الله: الوفاء بالأمانة والمسؤولية",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل القسط، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "qist",
+   "lesson": "حق الله: الوفاء بالأمانة والمسؤولية",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-05-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 05 - حق الله الوفاء بالأمانة والمسؤولية - جذاذة.pdf",
+   "size": 382423
+  },
+  {
+   "id": "isl1bac-s1-05-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 5: حق الله: الوفاء بالأمانة والمسؤولية",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل القسط، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "qist",
+   "lesson": "حق الله: الوفاء بالأمانة والمسؤولية",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-05-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 05 - حق الله الوفاء بالأمانة والمسؤولية - ورقة الأنشطة البنائية.pdf",
+   "size": 456083
+  },
+  {
+   "id": "isl1bac-s1-06",
+   "title": "الدرس 6: الكفاءة والاستحقاق أساس التكليف",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل الحكمة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "hikma",
+   "lesson": "الكفاءة والاستحقاق أساس التكليف",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-06.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 06 - الكفاءة والاستحقاق أساس التكليف - ملخص.pdf",
+   "size": 571494
+  },
+  {
+   "id": "isl1bac-s1-06-f",
+   "title": "جذاذة – الدرس 6: الكفاءة والاستحقاق أساس التكليف",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل الحكمة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "hikma",
+   "lesson": "الكفاءة والاستحقاق أساس التكليف",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-06-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 06 - الكفاءة والاستحقاق أساس التكليف - جذاذة.pdf",
+   "size": 386861
+  },
+  {
+   "id": "isl1bac-s1-06-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 6: الكفاءة والاستحقاق أساس التكليف",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل الحكمة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "hikma",
+   "lesson": "الكفاءة والاستحقاق أساس التكليف",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-06-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 06 - الكفاءة والاستحقاق أساس التكليف - ورقة الأنشطة البنائية.pdf",
+   "size": 499180
+  },
+  {
+   "id": "isl1bac-s1-07",
+   "title": "الدرس 7: سورة يوسف: الشطر الثاني (من الآية 21 إلى الآية 42)",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل التزكية (القرآن الكريم)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "tazkiya",
+   "lesson": "سورة يوسف: الشطر الثاني (من الآية 21 إلى الآية 42)",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-07.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 07 - سورة يوسف الشطر الثاني (من الآية 21 إلى الآية 42) - ملخص.pdf",
+   "size": 509591
+  },
+  {
+   "id": "isl1bac-s1-07-f",
+   "title": "جذاذة – الدرس 7: سورة يوسف: الشطر الثاني (من الآية 21 إلى الآية 42)",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل التزكية (القرآن الكريم)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "tazkiya",
+   "lesson": "سورة يوسف: الشطر الثاني (من الآية 21 إلى الآية 42)",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-07-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 07 - سورة يوسف الشطر الثاني (من الآية 21 إلى الآية 42) - جذاذة.pdf",
+   "size": 419269
+  },
+  {
+   "id": "isl1bac-s1-07-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 7: سورة يوسف: الشطر الثاني (من الآية 21 إلى الآية 42)",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل التزكية (القرآن الكريم)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "tazkiya",
+   "lesson": "سورة يوسف: الشطر الثاني (من الآية 21 إلى الآية 42)",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-07-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 07 - سورة يوسف الشطر الثاني (من الآية 21 إلى الآية 42) - ورقة الأنشطة البنائية.pdf",
+   "size": 459944
+  },
+  {
+   "id": "isl1bac-s1-08",
+   "title": "الدرس 8: الإيمان والعلم",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل التزكية (العقيدة)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "aqida",
+   "lesson": "الإيمان والعلم",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-08.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 08 - الإيمان والعلم - ملخص.pdf",
+   "size": 471392
+  },
+  {
+   "id": "isl1bac-s1-08-f",
+   "title": "جذاذة – الدرس 8: الإيمان والعلم",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل التزكية (العقيدة)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "aqida",
+   "lesson": "الإيمان والعلم",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-08-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 08 - الإيمان والعلم - جذاذة.pdf",
+   "size": 390877
+  },
+  {
+   "id": "isl1bac-s1-08-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 8: الإيمان والعلم",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل التزكية (العقيدة)، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "aqida",
+   "lesson": "الإيمان والعلم",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-08-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 08 - الإيمان والعلم - ورقة الأنشطة البنائية.pdf",
+   "size": 454847
+  },
+  {
+   "id": "isl1bac-s1-09",
+   "title": "الدرس 9: الرسول ﷺ مفاوضا ومستشيرا",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل الاقتداء، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "iqtida",
+   "lesson": "الرسول ﷺ مفاوضا ومستشيرا",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-09.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 09 - الرسول مفاوضا ومستشيرا - ملخص.pdf",
+   "size": 485084
+  },
+  {
+   "id": "isl1bac-s1-09-f",
+   "title": "جذاذة – الدرس 9: الرسول ﷺ مفاوضا ومستشيرا",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل الاقتداء، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "iqtida",
+   "lesson": "الرسول ﷺ مفاوضا ومستشيرا",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-09-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 09 - الرسول مفاوضا ومستشيرا - جذاذة.pdf",
+   "size": 423904
+  },
+  {
+   "id": "isl1bac-s1-09-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 9: الرسول ﷺ مفاوضا ومستشيرا",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل الاقتداء، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "iqtida",
+   "lesson": "الرسول ﷺ مفاوضا ومستشيرا",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-09-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 09 - الرسول مفاوضا ومستشيرا - ورقة الأنشطة البنائية.pdf",
+   "size": 490545
+  },
+  {
+   "id": "isl1bac-s1-10",
+   "title": "الدرس 10: فقه الأسرة في الإسلام: الطلاق",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل الاستجابة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "istijaba",
+   "lesson": "فقه الأسرة في الإسلام: الطلاق",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-10.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 10 - فقه الأسرة في الإسلام الطلاق - ملخص.pdf",
+   "size": 462539
+  },
+  {
+   "id": "isl1bac-s1-10-f",
+   "title": "جذاذة – الدرس 10: فقه الأسرة في الإسلام: الطلاق",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل الاستجابة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "istijaba",
+   "lesson": "فقه الأسرة في الإسلام: الطلاق",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-10-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 10 - فقه الأسرة في الإسلام الطلاق - جذاذة.pdf",
+   "size": 392647
+  },
+  {
+   "id": "isl1bac-s1-10-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 10: فقه الأسرة في الإسلام: الطلاق",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل الاستجابة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "istijaba",
+   "lesson": "فقه الأسرة في الإسلام: الطلاق",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-10-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 10 - فقه الأسرة في الإسلام الطلاق - ورقة الأنشطة البنائية.pdf",
+   "size": 456223
+  },
+  {
+   "id": "isl1bac-s1-11",
+   "title": "الدرس 11: حق النفس: الصبر واليقين",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل القسط، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "qist",
+   "lesson": "حق النفس: الصبر واليقين",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-11.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 11 - حق النفس الصبر واليقين - ملخص.pdf",
+   "size": 474344
+  },
+  {
+   "id": "isl1bac-s1-11-f",
+   "title": "جذاذة – الدرس 11: حق النفس: الصبر واليقين",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل القسط، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "qist",
+   "lesson": "حق النفس: الصبر واليقين",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-11-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 11 - حق النفس الصبر واليقين - جذاذة.pdf",
+   "size": 395923
+  },
+  {
+   "id": "isl1bac-s1-11-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 11: حق النفس: الصبر واليقين",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل القسط، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "qist",
+   "lesson": "حق النفس: الصبر واليقين",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-11-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 11 - حق النفس الصبر واليقين - ورقة الأنشطة البنائية.pdf",
+   "size": 462175
+  },
+  {
+   "id": "isl1bac-s1-12",
+   "title": "الدرس 12: العفو والتسامح",
+   "desc": "ملخص الدرس — التربية الإسلامية، مدخل الحكمة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "summary",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "hikma",
+   "lesson": "العفو والتسامح",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-12.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 12 - العفو والتسامح - ملخص.pdf",
+   "size": 498415
+  },
+  {
+   "id": "isl1bac-s1-12-f",
+   "title": "جذاذة – الدرس 12: العفو والتسامح",
+   "desc": "جذاذة الدرس — التربية الإسلامية، مدخل الحكمة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "jathatha",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "hikma",
+   "lesson": "العفو والتسامح",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-12-f.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 12 - العفو والتسامح - جذاذة.pdf",
+   "size": 394218
+  },
+  {
+   "id": "isl1bac-s1-12-w",
+   "title": "ورقة الأنشطة البنائية – الدرس 12: العفو والتسامح",
+   "desc": "ورقة الأنشطة البنائية — التربية الإسلامية، مدخل الحكمة، الأولى باكالوريا، الدورة الأولى.",
+   "type": "tamrin",
+   "subjectId": "islamic",
+   "levelId": "1bac",
+   "unitId": "hikma",
+   "lesson": "العفو والتسامح",
+   "semester": 1,
+   "free": false,
+   "file": "isl1bac/isl1bac-s1-12-w.pdf",
+   "fileName": "التربية الإسلامية 1باك - د1 - 12 - العفو والتسامح - ورقة الأنشطة البنائية.pdf",
+   "size": 499155
   }
  ]
 }
