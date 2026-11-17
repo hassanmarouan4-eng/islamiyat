@@ -255,16 +255,33 @@ function createCore(store, env) {
     if (!list.length) return 0;
     const done = (await store.get('libimported', 'json')) || [];
     const fresh = list.filter(x => x && x.id && done.indexOf(x.id) < 0);
-    if (!fresh.length) return 0;
+    // مزامنة العناصر المستوردة سابقا مع البيان الحالي (ملف جديد، صيغة جديدة، عنوان معدل...)
+    let sig = 0; const sigSrc = list.map(x => [x.id, x.file, x.size, x.fileName, x.title].join('|')).join('\n');
+    for (let i = 0; i < sigSrc.length; i++) sig = (sig * 31 + sigSrc.charCodeAt(i)) | 0;
+    const oldSig = await store.get('libsig');
+    if (!fresh.length && String(sig) === oldSig) return 0;
     const items = await getItems(); const t = now();
+    const mimeOf = n => { const e = fileExt(n); return e === 'pdf' ? 'application/pdf' : e === 'png' ? 'image/png' : (e === 'jpg' || e === 'jpeg') ? 'image/jpeg' : e === 'pptx' ? 'application/vnd.openxmlformats-officedocument.presentationml.presentation' : DOCX_MIME; };
+    const byId = new Map(list.map(x => [x.id, x]));
+    let changed = 0;
+    for (const it of items) {
+      if (it.kind !== 'lib') continue;
+      const x = byId.get(it.id); if (!x) continue;
+      const upd = { file: clean(x.file, 120), fileName: clean(x.fileName, 160), size: parseInt(x.size, 10) || 0, title: clean(x.title, 160), desc: clean(x.desc, 600), lesson: clean(x.lesson, 120) };
+      upd.mime = mimeOf(upd.fileName);
+      if (Object.keys(upd).some(k => it[k] !== upd[k])) { Object.assign(it, upd); it.updatedAt = t; changed++; }
+    }
     const add = fresh.filter(x => !items.some(i => i.id === x.id)).map((x, k) => ({
       id: clean(x.id, 40), title: clean(x.title, 160), desc: clean(x.desc, 600), type: TYPES.some(T => T.id === x.type) ? x.type : 'jathatha',
       subjectId: clean(x.subjectId, 20) || 'islamic', levelId: clean(x.levelId, 20) || 'all', unitId: clean(x.unitId, 20), lesson: clean(x.lesson, 120),
       semester: [0, 1, 2].indexOf(parseInt(x.semester, 10)) >= 0 ? parseInt(x.semester, 10) : 0, free: !!x.free, kind: 'lib', file: clean(x.file, 120),
       fileName: clean(x.fileName, 160), mime: DOCX_MIME, size: parseInt(x.size, 10) || 0, fonts: Array.isArray(x.fonts) ? x.fonts.map(f => clean(f, 60)) : [], createdAt: t - k }));
-    if (add.length) { items.unshift(...add); await saveItems(items); }
-    await putSafe('libimported', JSON.stringify(done.concat(fresh.map(x => x.id))));
-    return add.length;
+    add.forEach(it => { it.mime = mimeOf(it.fileName); });
+    if (add.length) items.unshift(...add);
+    if (add.length || changed) await saveItems(items);
+    if (fresh.length) await putSafe('libimported', JSON.stringify(done.concat(fresh.map(x => x.id))));
+    await putSafe('libsig', String(sig));
+    return add.length + changed;
   }
 
   // زر «تطبيق أندرويد»: يظهر برابط المنصة القصير ما لم يغيّره المدير أو يفرغه من الإعدادات
