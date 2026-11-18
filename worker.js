@@ -279,12 +279,19 @@ function createCore(store, env) {
     const list = Array.isArray(man && man.items) ? man.items : [];
     if (!list.length) return 0;
     const done = (await store.get('libimported', 'json')) || [];
+    // إعادة الرفع: «reimport» في البيان يعيد العناصر المحذوفة أو المفقودة ذات البادئة المحددة مرة واحدة لكل رمز
+    const reimp = (Array.isArray(man.reimport) ? man.reimport : []).filter(r => r && r.token && r.prefix && done.indexOf('reimport:' + r.token) < 0);
+    if (reimp.length) {
+      const pre = reimp.map(r => String(r.prefix));
+      for (let i = done.length - 1; i >= 0; i--) if (pre.some(p => String(done[i]).indexOf(p) === 0)) done.splice(i, 1);
+      reimp.forEach(r => done.push('reimport:' + r.token));
+    }
     const fresh = list.filter(x => x && x.id && done.indexOf(x.id) < 0);
     // مزامنة العناصر المستوردة سابقا مع البيان الحالي (ملف جديد، صيغة جديدة، عنوان معدل...)
     let sig = 0; const sigSrc = list.map(x => [x.id, x.file, x.size, x.fileName, x.title, x.unitId || '', JSON.stringify(x.extra || [])].join('|')).join('\n');
     for (let i = 0; i < sigSrc.length; i++) sig = (sig * 31 + sigSrc.charCodeAt(i)) | 0;
     const oldSig = await store.get('libsig');
-    if (!fresh.length && String(sig) === oldSig) return 0;
+    if (!fresh.length && !reimp.length && String(sig) === oldSig) return 0;
     const items = await getItems(); const t = now();
     const mimeOf = n => { const e = fileExt(n); return e === 'pdf' ? 'application/pdf' : e === 'png' ? 'image/png' : (e === 'jpg' || e === 'jpeg') ? 'image/jpeg' : e === 'pptx' ? 'application/vnd.openxmlformats-officedocument.presentationml.presentation' : DOCX_MIME; };
     const libExtra = x => (Array.isArray(x.extra) ? x.extra : []).filter(e => e && e.file).slice(0, 20).map((e, n) => ({ n: n + 1, file: clean(e.file, 120), fileName: clean(e.fileName, 160), size: parseInt(e.size, 10) || 0, label: clean(e.label, 80), mime: mimeOf(e.fileName) }));
@@ -307,7 +314,7 @@ function createCore(store, env) {
     add.forEach(it => { it.mime = mimeOf(it.fileName); const mx = list.find(y => y.id === it.id); it.extra = libExtra(mx || {}); });
     if (add.length) items.unshift(...add);
     if (add.length || changed) await saveItems(items);
-    if (fresh.length) await putSafe('libimported', JSON.stringify(done.concat(fresh.map(x => x.id))));
+    if (fresh.length || reimp.length) await putSafe('libimported', JSON.stringify(done.concat(fresh.map(x => x.id))));
     await putSafe('libsig', String(sig));
     return add.length + changed;
   }
