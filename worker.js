@@ -36,10 +36,16 @@ const ISLAMIC_UNITS = [
   { id: 'qist',     name: 'مدخل القسط' },
   { id: 'hikma',    name: 'مدخل الحكمة' }
 ];
+const ARABIC_UNITS = [
+  { id: 'nusus',   name: 'مكوّن النصوص' },
+  { id: 'lugha',   name: 'مكوّن علوم اللغة' },
+  { id: 'tabir',   name: 'مكوّن التعبير والإنشاء' },
+  { id: 'muallaf', name: 'مكوّن المؤلفات' }
+];
 function defaultSubjects() {
   return [
     { id: 'islamic', name: 'التربية الإسلامية', levels: 'all', image: '', units: ISLAMIC_UNITS.slice() },
-    { id: 'arabic',  name: 'اللغة العربية', levels: 'all', image: '', units: [] },
+    { id: 'arabic',  name: 'اللغة العربية', levels: 'all', image: '', units: ARABIC_UNITS.slice() },
     { id: 'french',  name: 'اللغة الفرنسية', levels: 'all', image: '', units: [] },
     { id: 'english', name: 'اللغة الإنجليزية', levels: 'all', image: '', units: [] },
     { id: 'math',    name: 'الرياضيات', levels: 'all', image: '', units: [] },
@@ -260,6 +266,13 @@ function createCore(store, env) {
       c.mig = 5;
       try { await saveCfg(c); } catch (e) {}
     }
+    if (c.mig < 6) {
+      // تحديث 6: مكوّنات اللغة العربية (النصوص، علوم اللغة، التعبير والإنشاء، المؤلفات)
+      const ar = (c.subjects || []).find(x => x.id === 'arabic');
+      if (ar && (!Array.isArray(ar.units) || !ar.units.length)) ar.units = ARABIC_UNITS.slice();
+      c.mig = 6;
+      try { await saveCfg(c); } catch (e) {}
+    }
     return c;
   }
   const saveCfg = c => putSafe('cfg', JSON.stringify(c));
@@ -295,12 +308,14 @@ function createCore(store, env) {
       for (let i = done.length - 1; i >= 0; i--) if (pre.some(p => String(done[i]).indexOf(p) === 0)) done.splice(i, 1);
       reimp.forEach(r => done.push('reimport:' + r.token));
     }
+    // سحب عناصر قديمة: «retire» يحذف مرة واحدة عناصر المكتبة ذات البادئة المحددة إذا لم تعد في البيان
+    const retire = (Array.isArray(man.retire) ? man.retire : []).filter(r => r && r.token && r.prefix && done.indexOf('retire:' + r.token) < 0);
     const fresh = list.filter(x => x && x.id && done.indexOf(x.id) < 0);
     // مزامنة العناصر المستوردة سابقا مع البيان الحالي (ملف جديد، صيغة جديدة، عنوان معدل...)
     let sig = 0; const sigSrc = list.map(x => [x.id, x.file, x.size, x.fileName, x.title, x.unitId || '', JSON.stringify(x.extra || [])].join('|')).join('\n');
     for (let i = 0; i < sigSrc.length; i++) sig = (sig * 31 + sigSrc.charCodeAt(i)) | 0;
     const oldSig = await store.get('libsig');
-    if (!fresh.length && !reimp.length && String(sig) === oldSig) return 0;
+    if (!fresh.length && !reimp.length && !retire.length && String(sig) === oldSig) return 0;
     const items = await getItems(); const t = now();
     const mimeOf = n => { const e = fileExt(n); return e === 'pdf' ? 'application/pdf' : e === 'png' ? 'image/png' : (e === 'jpg' || e === 'jpeg') ? 'image/jpeg' : e === 'pptx' ? 'application/vnd.openxmlformats-officedocument.presentationml.presentation' : DOCX_MIME; };
     const libExtra = x => (Array.isArray(x.extra) ? x.extra : []).filter(e => e && e.file).slice(0, 20).map((e, n) => ({ n: n + 1, file: clean(e.file, 120), fileName: clean(e.fileName, 160), size: parseInt(e.size, 10) || 0, label: clean(e.label, 80), mime: mimeOf(e.fileName) }));
@@ -323,8 +338,13 @@ function createCore(store, env) {
       fileName: clean(x.fileName, 160), mime: DOCX_MIME, size: parseInt(x.size, 10) || 0, fonts: Array.isArray(x.fonts) ? x.fonts.map(f => clean(f, 60)) : [], createdAt: t - k }));
     add.forEach(it => { const mx0 = list.find(y => y.id === it.id) || {}; if (mx0.cat) it.cat = clean(mx0.cat, 80); it.mime = mimeOf(it.fileName); const mx = list.find(y => y.id === it.id); it.extra = libExtra(mx || {}); });
     if (add.length) items.unshift(...add);
+    if (retire.length) {
+      const pre = retire.map(r => String(r.prefix));
+      for (let i = items.length - 1; i >= 0; i--) { const it = items[i]; if (it.kind === 'lib' && !byId.has(it.id) && pre.some(p => String(it.id).indexOf(p) === 0)) { items.splice(i, 1); changed++; } }
+      retire.forEach(r => done.push('retire:' + r.token));
+    }
     if (add.length || changed) await saveItems(items);
-    if (fresh.length || reimp.length) await putSafe('libimported', JSON.stringify(done.concat(fresh.map(x => x.id))));
+    if (fresh.length || reimp.length || retire.length) await putSafe('libimported', JSON.stringify(done.concat(fresh.map(x => x.id))));
     await putSafe('libsig', String(sig));
     return add.length + changed;
   }
